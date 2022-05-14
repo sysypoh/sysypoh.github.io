@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to my page
+
+I'm a fullstack software engineer with over 5 years of web development. Specializing in REST API integration and MVC. I have experience in Laravel and .NET Core.
 
 You can use the [editor on GitHub](https://github.com/sysypoh/sysypoh.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
