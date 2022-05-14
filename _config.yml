@@ -5,7 +5,10 @@ author:
 
 description: Bookmark this to keep an eye on my project updates!
 
-social_links:
-  linkedin: soo-yong-poh-07210740
-
 theme: jekyll-theme-cayman
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    linkedin: soo-yong-poh-07210740
+
