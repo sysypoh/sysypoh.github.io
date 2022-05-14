@@ -1,4 +1,11 @@
-theme: jekyll-theme-cayman
 title: Welcome to RongShen
+author:
+  name: Poh Soo Yong
+  email: sysypoh@gmail.com
+
 description: Bookmark this to keep an eye on my project updates!
-linkedin_username: soo-yong-poh-07210740
+
+social_links:
+  linkedin: soo-yong-poh-07210740
+
+theme: jekyll-theme-cayman
