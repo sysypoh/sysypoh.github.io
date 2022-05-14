@@ -1,4 +1,5 @@
 title: Welcome to RongShen
+
 author:
   name: Poh Soo Yong
   email: sysypoh@gmail.com
@@ -9,6 +10,7 @@ theme: jekyll-theme-cayman
 
 minima:
   date_format: "%b %-d, %Y"
+
   social_links:
     linkedin: soo-yong-poh-07210740
 
