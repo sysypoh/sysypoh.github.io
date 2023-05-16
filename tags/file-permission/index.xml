@@ -13,8 +13,10 @@
       <pubDate>Mon, 06 Feb 2017 20:30:00 +0800</pubDate>
       
       <guid>https://serenitylife.xyz/blog/how-linux-handles-file-permission/</guid>
-      <description>Linux (also known as GNU/Linux) is a clone of UNIX, the multi-user operating system which can be accessed by many users simultaneously. Linux can also be used in mainframes and servers without any modifications (and this attracts attackers). But this raises security concerns as an unsolicited or malign user can corrupt, change or remove crucial data.
-Ownership Permission Linux (also known as GNU/Linux) is a clone of UNIX, the multi-user operating system which can be accessed by many users simultaneously. Linux can also be used in mainframes and servers without any modifications (and this attracts attackers). But this raises security concerns as an unsolicited or malign user can corrupt, change or remove crucial data.</description>
+      <description>&lt;p&gt;Linux (also known as GNU/Linux) is a clone of UNIX, the multi-user operating
+system which can be accessed by many users simultaneously. Linux can also be
+used in mainframes and servers without any modifications (and this attracts
+attackers).&lt;/p&gt;</description>
     </item>
     
   </channel>
