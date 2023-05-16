@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sysypoh.github.io/about/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/tags/aboutme/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/blog/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/tags/file-permission/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/blog/how-linux-handles-file-permission/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/blog/how-to-manage-users-in-linux/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/tags/linux/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/tags/user-management/</loc>
+    <lastmod>2017-02-06T20:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sysypoh.github.io/archives/</loc>
+  </url><url>
+    <loc>https://sysypoh.github.io/search/</loc>
+  </url>
+</urlset>
