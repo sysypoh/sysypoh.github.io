@@ -23,7 +23,7 @@ Ownership Permission Linux (also known as GNU/Linux) is a clone of UNIX, the mul
       <pubDate>Mon, 06 Feb 2017 20:30:00 +0800</pubDate>
       
       <guid>https://sysypoh.github.io/blog/how-to-manage-users-in-linux/</guid>
-      <description></description>
+      <description>$ useradd -aG ricky </description>
     </item>
     
   </channel>
