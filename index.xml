@@ -6,7 +6,30 @@
     <description>Recent content on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Feb 2017 20:30:00 +0800</lastBuildDate><atom:link href="https://serenitylife.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Mar 2018 20:56:09 +0800</lastBuildDate><atom:link href="https://serenitylife.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Naive Thoughts of Crud and Chat Systems</title>
+      <link>https://serenitylife.xyz/blog/my-naive-thoughts-of-crud-and-chat-systems/</link>
+      <pubDate>Fri, 16 Mar 2018 20:56:09 +0800</pubDate>
+      
+      <guid>https://serenitylife.xyz/blog/my-naive-thoughts-of-crud-and-chat-systems/</guid>
+      <description>Chatting in real-time invovled server-client communication. PHP web is best for CRUD operation, but it is inefficient for chatting, as the client need to pool against the server for new data periodically. This would not scale for the server against the growth of user base.
+This is where Node.JS/Express/MongoDB/Socket.io comes in. The tech stack allows distribute system.
+While digging into these, I realized that Erlang/OTP (Open Telecom Platform) was developed for this purpose. I could say that this is a specialized programming language. It purpose is to have a hot-swappable code, it allow processes to run forever without downtime. It solves distributed system.</description>
+    </item>
+    
+    <item>
+      <title>My Naive Thoughts Four Module of Hadoop</title>
+      <link>https://serenitylife.xyz/blog/my-naive-thoughts-four-module-of-hadoop/</link>
+      <pubDate>Thu, 15 Mar 2018 21:03:43 +0800</pubDate>
+      
+      <guid>https://serenitylife.xyz/blog/my-naive-thoughts-four-module-of-hadoop/</guid>
+      <description>Hadoop: A set of open source programs and procedures which anyone can use as the &amp;ldquo;backbone&amp;rdquo; of their big data operations.
+The four module of Hadoop
+Distributed File-System MapReduce Hadoop Common YARN Distributed File-System The most important two are Distributed File System and MapReduce Distributed File System in Hadoop system uses its own file system that &amp;ldquo;sit above&amp;rdquo; the file system. Meaning it can be accessed using any computer, and operating system. While MapReduce provides the basic tools for &amp;ldquo;massaging&amp;rdquo; the data
+MapReduce Read data from database, putting it into a format suitable for analysis (Map). Performing mathematical operations, i.e.: counting the numbers of males aged 30+ in a customer database (Reduce).</description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://serenitylife.xyz/about/</link>
