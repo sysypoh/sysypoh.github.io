@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on One of those days</title>
-    <link>https://jiaklat.com/blog/</link>
-    <description>Recent content in Blogs on One of those days</description>
+    <title>naive-thoughts on One of those days</title>
+    <link>https://jiaklat.com/tags/naive-thoughts/</link>
+    <description>Recent content in naive-thoughts on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Mar 2018 20:56:09 +0800</lastBuildDate><atom:link href="https://jiaklat.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Mar 2018 20:56:09 +0800</lastBuildDate><atom:link href="https://jiaklat.com/tags/naive-thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Naive Thoughts of Crud and Chat Systems</title>
       <link>https://jiaklat.com/blog/my-naive-thoughts-of-crud-and-chat-systems/</link>
@@ -27,27 +27,6 @@ server against the growth of user base.&lt;/p&gt;</description>
       <guid>https://jiaklat.com/blog/my-naive-thoughts-four-module-of-hadoop/</guid>
       <description>&lt;p&gt;Hadoop: A set of open source programs and procedures which anyone can use as the
 &amp;ldquo;backbone&amp;rdquo; of their big data operations.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How Linux handles file permission</title>
-      <link>https://jiaklat.com/blog/how-linux-handles-file-permission/</link>
-      <pubDate>Mon, 06 Feb 2017 20:30:00 +0800</pubDate>
-      
-      <guid>https://jiaklat.com/blog/how-linux-handles-file-permission/</guid>
-      <description>&lt;p&gt;Linux (also known as GNU/Linux) is a clone of UNIX, the multi-user operating
-system which can be accessed by many users simultaneously. Linux can also be
-used in mainframes and servers without any modifications (and this attracts
-attackers).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How to use useradd command</title>
-      <link>https://jiaklat.com/blog/how-to-manage-users-in-linux/</link>
-      <pubDate>Mon, 06 Feb 2017 20:30:00 +0800</pubDate>
-      
-      <guid>https://jiaklat.com/blog/how-to-manage-users-in-linux/</guid>
-      <description>$ useradd -aG ricky </description>
     </item>
     
   </channel>

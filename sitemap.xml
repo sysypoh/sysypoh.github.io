@@ -2,41 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.jiaklat.com/blog/</loc>
+    <loc>https://jiaklat.com/blog/</loc>
     <lastmod>2018-03-16T20:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/blog/my-naive-thoughts-of-crud-and-chat-systems/</loc>
+    <loc>https://jiaklat.com/blog/my-naive-thoughts-of-crud-and-chat-systems/</loc>
     <lastmod>2018-03-16T20:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/</loc>
+    <loc>https://jiaklat.com/tags/naive-thoughts/</loc>
     <lastmod>2018-03-16T20:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/blog/my-naive-thoughts-four-module-of-hadoop/</loc>
+    <loc>https://jiaklat.com/</loc>
+    <lastmod>2018-03-16T20:56:09+08:00</lastmod>
+  </url><url>
+    <loc>https://jiaklat.com/blog/my-naive-thoughts-four-module-of-hadoop/</loc>
     <lastmod>2018-03-15T21:03:43+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/about/</loc>
+    <loc>https://jiaklat.com/about/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/tags/aboutme/</loc>
+    <loc>https://jiaklat.com/tags/aboutme/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/tags/file-permission/</loc>
+    <loc>https://jiaklat.com/tags/file-permission/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/blog/how-linux-handles-file-permission/</loc>
+    <loc>https://jiaklat.com/blog/how-linux-handles-file-permission/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/blog/how-to-manage-users-in-linux/</loc>
+    <loc>https://jiaklat.com/blog/how-to-manage-users-in-linux/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/tags/linux/</loc>
+    <loc>https://jiaklat.com/tags/linux/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/tags/user-management/</loc>
+    <loc>https://jiaklat.com/tags/user-management/</loc>
     <lastmod>2017-02-06T20:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jiaklat.com/archives/</loc>
+    <loc>https://jiaklat.com/archives/</loc>
   </url><url>
-    <loc>https://blog.jiaklat.com/search/</loc>
+    <loc>https://jiaklat.com/search/</loc>
   </url>
 </urlset>

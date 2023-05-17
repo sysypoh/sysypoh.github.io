@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on One of those days</title>
-    <link>https://blog.jiaklat.com/archives/</link>
+    <link>https://jiaklat.com/archives/</link>
     <description>Recent content in Archives on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://blog.jiaklat.com/archives/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://jiaklat.com/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
