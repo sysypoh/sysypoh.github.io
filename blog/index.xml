@@ -6,15 +6,36 @@
     <description>Recent content in Blogs on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Mar 2018 20:56:09 +0800</lastBuildDate><atom:link href="https://jiaklat.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Apr 2020 10:07:18 +0800</lastBuildDate><atom:link href="https://jiaklat.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Naive Thoughts of Crud and Chat Systems</title>
+      <title>Proxy and Reverse Proxy Terminology</title>
+      <link>https://jiaklat.com/blog/proxy-and-reverse-proxy-terminology/</link>
+      <pubDate>Mon, 06 Apr 2020 10:07:18 +0800</pubDate>
+      
+      <guid>https://jiaklat.com/blog/proxy-and-reverse-proxy-terminology/</guid>
+      <description>&lt;p&gt;Proxy and Reverse-Proxy are just networking terminology. It helps to visualize
+it as between client and server.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Differences Between SSH and VPN</title>
+      <link>https://jiaklat.com/blog/the-differences-between-ssh-and-vpn/</link>
+      <pubDate>Mon, 06 Apr 2020 09:58:05 +0800</pubDate>
+      
+      <guid>https://jiaklat.com/blog/the-differences-between-ssh-and-vpn/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;ecure &lt;strong&gt;SH&lt;/strong&gt;ell is an application implementation to securely communicate
+and give commands to remote host. It work at &lt;em&gt;Application Layer&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Naive Thoughts of CRUD and Chat Systems</title>
       <link>https://jiaklat.com/blog/my-naive-thoughts-of-crud-and-chat-systems/</link>
       <pubDate>Fri, 16 Mar 2018 20:56:09 +0800</pubDate>
       
       <guid>https://jiaklat.com/blog/my-naive-thoughts-of-crud-and-chat-systems/</guid>
-      <description>&lt;p&gt;Chatting in real-time invovled server-client communication. PHP web is best for
-CRUD operation, but it is inefficient for chatting, as the client need to pool
+      <description>&lt;p&gt;Chatting in real-time invovled server-client communication. For example, PHP web is best for
+&lt;strong&gt;C&lt;/strong&gt;reate-&lt;strong&gt;R&lt;/strong&gt;ead-&lt;strong&gt;U&lt;/strong&gt;pdate-&lt;strong&gt;D&lt;/strong&gt;elete operation,
+but it is inefficient for chatting, as the client need to pool
 against the server for new data periodically. This would not scale for the
 server against the growth of user base.&lt;/p&gt;</description>
     </item>
