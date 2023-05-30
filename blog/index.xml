@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 10:07:18 +0800</lastBuildDate><atom:link href="https://jiaklat.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 10:25:00 +0800</lastBuildDate><atom:link href="https://jiaklat.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring Git Config</title>
+      <link>https://jiaklat.com/blog/configuring-git-config/</link>
+      <pubDate>Tue, 30 May 2023 10:25:00 +0800</pubDate>
+      
+      <guid>https://jiaklat.com/blog/configuring-git-config/</guid>
+      <description>&lt;p&gt;Git can be configured more than just name and email.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Proxy and Reverse Proxy Terminology</title>
       <link>https://jiaklat.com/blog/proxy-and-reverse-proxy-terminology/</link>

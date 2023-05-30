@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on One of those days</title>
+    <link>https://jiaklat.com/tags/git/</link>
+    <description>Recent content in git on One of those days</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 May 2023 10:25:00 +0800</lastBuildDate><atom:link href="https://jiaklat.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring Git Config</title>
+      <link>https://jiaklat.com/blog/configuring-git-config/</link>
+      <pubDate>Tue, 30 May 2023 10:25:00 +0800</pubDate>
+      
+      <guid>https://jiaklat.com/blog/configuring-git-config/</guid>
+      <description>&lt;p&gt;Git can be configured more than just name and email.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
