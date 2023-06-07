@@ -23,22 +23,25 @@
 
 
 
-<title>404 Page not found - One of those days</title>
+<title>Brief Recall of Private Public Key Rsa - One of those days</title>
 
 
 <meta name="author" content="John Poh" />
 
 
-<meta name="description" content="Spices in my life" />
+<meta name="description" content="what is RSA? private and public??" />
 
 
+<meta name="keywords" content="rsa, ssh, tls" />
 
-<meta property="og:title" content="404 Page not found" />
-<meta name="twitter:title" content="404 Page not found" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jiaklat.com/404.html" /><meta property="og:image" content="https://jiaklat.com/img/og.png" />
+
+<meta property="og:title" content="Brief Recall of Private Public Key Rsa" />
+<meta name="twitter:title" content="Brief Recall of Private Public Key Rsa" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jiaklat.com/blog/brief-recall-of-private-public-key-rsa/" /><meta property="og:description" content="what is RSA? private and public??" />
+<meta name="twitter:description" content="what is RSA? private and public??" /><meta property="og:image" content="https://jiaklat.com/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://jiaklat.com/img/og.png" />
+<meta name="twitter:image" content="https://jiaklat.com/img/og.png" /><meta property="article:published_time" content="2020-12-20T14:16:08+08:00" /><meta property="article:modified_time" content="2020-12-20T14:16:08+08:00" />
 
 
 <style>
@@ -114,9 +117,99 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-<div class="404-not-found" style="font-size: 2rem; padding-top: 1.5rem;">
-    <span>404 NOT FOUND</span>
-</div>
+<article>
+    
+    <h2 class="post-item post-title">
+        <a href="https://jiaklat.com/blog/brief-recall-of-private-public-key-rsa/">Brief Recall of Private Public Key Rsa</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-12-20</span>
+
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;394 words</span>
+
+<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/rsa">rsa</a>&nbsp;<a href="/tags/ssh">ssh</a>&nbsp;<a href="/tags/tls">tls</a>&nbsp;</span>
+
+    </div>
+    
+    <div class="post-content markdown-body">
+        <p>Is part of Public Key Infrastructure (PKI), a type of this is asymmetrical encryption. This is a mathematical trap-door function that enables secure encrypted communication within public-network, preventing eavesdropping.</p>
+<h3 id="the-mathematical-expression">The mathematical expression</h3>
+
+$$e^{\Phi(k) \times \Phi(d)} \bmod \Mu = C$$
+
+
+<p>Legend:</p>
+<p>
+\( \Phi \)
+
+: Phi-function</p>
+<p>
+\( \Mu \)
+
+: The message (data)</p>
+<p>
+\( C \)
+
+: Ciphertext</p>
+<p>The key take away from the mathematical expression is encrypting such a way that
+the forward (Message -&gt; Ciphertext) is easy to compute but the backward
+(Ciphertext -&gt; Message) is extremely difficult</p>
+
+$$\begin{align}
+\begin{split}
+easy &amp;\to \\
+^{plaintext}ABC &amp;\implies B12A^{encrypted} \\
+&amp;\gets hard
+\end{split}
+\end{align}$$
+
+
+<h3 id="analogy-1">Analogy 1</h3>
+<p>Imagine this fish-trap, where the fish easily goes into the trap, but extremely
+difficult to for the fishes to escape once is inside of the trap.</p>
+<h3 id="analogy-2">Analogy 2</h3>
+<p>
+$$\space A \times B = C$$
+
+
+multiplying A and B to get C is very easy, but figuring out A and B from C is extremely hard</p>
+<p>This is only possible if A and B is extremely large and it is made up of prime-number.
+Example find the prime number of XXXXXX and YYYYYY where their multiplication is 153153257849.</p>
+<p>(hint: 
+\(196169 \times 780721 \)
+
+)</p>
+<h3 id="practical">Practical</h3>
+<p>The informed reader is now understood that, given every key pair consist of
+private-key and public-key. Note that the public-key can be generated from
+private-key.</p>
+<pre><code># in ~/.ssh/
+id_rsa2048
+id_rsa2048.pub
+</code></pre>
+<p>Alice can distribute as many public-key as she wanted. Imagine this public-key
+is an unlocked padlock. Whoever wants to send message to Alice in secret can use
+this unlocked padlock and lock the message.</p>
+<p>Only Alice with the private-key, able to decrypt the encrypted message.
+Therefore Bob is successfully send messages to Alice.</p>
+<p>Note that the terminology can be extended to document signing. Since it is a
+asymmetrical key-pairs.</p>
+<p>Only private-key able to <em>decrypt</em> public key</p>
+<p>this also applies in reverse.</p>
+<p>Only public-key able to <em>decrypt</em> private-key</p>
+<p>Therefore, if a message is encrypted with public-key, is call <strong>encrypting</strong> but
+if a message is encrypted with private-key, is call <strong>signing</strong>.</p>
+<p>Why the term &ldquo;signing&rdquo; is used? because everyone with public-key is able to
+decrypt an encrypted message by private-key!</p>
+<p>Hence, anyone with the public-key able to verify that this message is indeed
+from the private-key holder.</p>
+<p>Conclusion, PKI is used many applications, such as SSH (Secure Shell; uses
+private-key pair) and TLS uses <em>certificate</em> with private-key pair.</p>
+    </div>
+</article>
+
+
+
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
@@ -213,8 +306,6 @@
             
         </div>
     </div>
-    
-    
     
 </aside>
 
@@ -327,6 +418,8 @@
     </div>
     
     
+    
+    
   </div>
 </aside>
     </main>
@@ -355,6 +448,21 @@
 
 
 <script defer src="/assets/js/fuji.min.645f1123be695831f419ab54c1bcba327325895c740014006e57070d4f3e5d6b553e929c4b46f40ea707249e9c7f7c2a446d32a39ce7319f80a34525586a8e0f.js" integrity="sha512-ZF8RI75pWDH0GatUwby6MnMliVx0ABQAblcHDU8&#43;XWtVPpKcS0b0DqcHJJ6cf3wqRG0yo5znMZ&#43;Ao0UlWGqODw=="></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha512-07YhC3P4/vS5HdgGuNAAeIxb5ee//efgRNo5AGdMtqFBUPYOdQG/sDK0Nl5qNq94kdEk/Pvu8pmN4GYUeucUkw==" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha512-aMDiFsrEV3KzAn9EHwyBRS7y1APjZWt/Z/73ukLN2Ca2KcGGzlOQFQSnfOdnEcehpwMaQ8edlDB/0cMX2GsHbg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha512-ZA/RPrAo88DlwRnnoNVqKINnQNcWERzRK03PDaA4GIJiVZvGFIWQbdWCsUebMZfkWohnfngsDjXzU6PokO4jGw==" crossorigin="anonymous"></script>
+<script>
+  renderMathInElement(document.querySelector('div.content'), {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '\\[', right: '\\]', display: true },
+      { left: '$', right: '$', display: false },
+      { left: '\\(', right: '\\)', display: false },
+    ],
+  });
+</script>
+
 
 
 

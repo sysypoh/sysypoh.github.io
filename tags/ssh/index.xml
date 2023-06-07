@@ -6,7 +6,16 @@
     <description>Recent content in ssh on One of those days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 09:58:05 +0800</lastBuildDate><atom:link href="https://jiaklat.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 14:16:08 +0800</lastBuildDate><atom:link href="https://jiaklat.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brief Recall of Private Public Key Rsa</title>
+      <link>https://jiaklat.com/blog/brief-recall-of-private-public-key-rsa/</link>
+      <pubDate>Sun, 20 Dec 2020 14:16:08 +0800</pubDate>
+      
+      <guid>https://jiaklat.com/blog/brief-recall-of-private-public-key-rsa/</guid>
+      <description>&lt;p&gt;Is part of Public Key Infrastructure (PKI), a type of this is asymmetrical encryption. This is a mathematical trap-door function that enables secure encrypted communication within public-network, preventing eavesdropping.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>The Differences Between SSH and VPN</title>
       <link>https://jiaklat.com/blog/the-differences-between-ssh-and-vpn/</link>
